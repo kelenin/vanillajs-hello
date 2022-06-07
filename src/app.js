@@ -10,7 +10,7 @@ let what = ['eat','pissed','crushed','broked'];
 let when = ['before the class','right in time','when I finished','during my lunch','while I was praying'];*/
 
 let who = ["El perro", "Mi abuela", "Su tortuga", "Mi pájaro"];
-let what = ["comer", "molesta (o)", "aplastó", "roto"];
+let what = ["comer", "molesto", "aplastó", "roto"];
 let when = [
   "antes de la clase",
   "justo a tiempo",
@@ -29,7 +29,6 @@ function GenerarExcusasAleatorio(quien, que, cuando) {
 
 window.onLoad = function() {
   //write your code here
-  //console.log("Hello Rigo from the console!");
   var excusa = document.getElementById("excuse");
   excusa.innerHTML = GenerarExcusasAleatorio(who, what, when);
 };
